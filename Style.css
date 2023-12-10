@@ -45,7 +45,41 @@ nav a{
 .displayed-6{
     color: var(--primary);
 }
-
+h5{
+    color: var(--primary) !important;
+}
+.cta{
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)) fixed center center;
+    background-size: cover;
+}
+.list ul{
+    display: flex;
+    justify-content: center;
+}
+.list li{
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 5px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    transition: all 0.3s;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+}
+.list li:hover{
+    background: #47b2e4;
+    color: #fff;
+}
+.img-fluid{
+    border-radius: 50%;
+}
+.plan li{
+    list-style: none;
+}
 
 
 
